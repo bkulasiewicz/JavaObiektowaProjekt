@@ -30,6 +30,15 @@ public class Main {
         wolf2.initParams();
         world1.addOrganism(wolf2);
 
+        Crocodile crocodile1 = new Crocodile(1,4,world1);
+        crocodile1.initParams();
+        world1.addOrganism(crocodile1);
+
+        Crocodile crocodile2 = new Crocodile(1,9,world1);
+        crocodile2.initParams();
+        world1.addOrganism(crocodile2);
+
+
         System.out.println(world1);
 
 //        for(int i=0; i<30; i++){
